@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Long Exposure Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <input type="text" id="shutterspeed" value="1/20" maxlength="6">
+        <p>at</p>
+        <input type="text" id="stops" value="8.65" maxlength="4">
+        <p>stops</p>
+        <p>=</p>
+        <p id="result">20.09</p>
+        <p id="secs">seconds</p>
+    </div>
+    
+    <div id="about">
+        <p class="para">The formula is as follows: Final exposure time = Original shutter speed * 2 ^ Stop value of ND filter</p>
+    </div>
+    
+    <input type=checkbox id=nightMode onclick=toggleNightMode()>
+    <p id="nightToggle">Toggle night mode</p>
+    
+	<script async src="script.js"></script>
+</body>
+</html>

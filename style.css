@@ -1,0 +1,64 @@
+body {
+    background-color: #E2E2E2;
+    color: #4E4E4E;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+
+#main {
+    position: relative;
+    top: 45vh;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input,
+p {
+    display: inline;
+}
+
+input {
+    width: 80px;
+    border-width: 0px;
+    background-color: #E2E2E2;
+    color: #4E4E4E;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#stops {
+    width: 50px;
+}
+
+#result,
+#secs {
+    color: #3169D3;
+}
+
+.para {
+    color: #ACACAC;
+    font-size: 14px;
+    position: fixed;
+    left: 20px;
+    bottom: 0px;
+}
+
+#nightMode {
+    position: fixed;
+    top: 11px;
+    right: -50px;
+}
+
+#nightToggle {
+    font-size: 14px;
+    color: #ACACAC;
+    position: fixed;
+    top: 0px;
+    right: 45px;
+}
